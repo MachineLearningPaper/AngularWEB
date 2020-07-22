@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { RegistrosComponent } from './registros/registros.component';
+import { SingInUpComponent } from './sing-in-up/sing-in-up.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { RegistrosComponent } from './registros/registros.component';
     FooterComponent,
     NavbarComponent,
     SidebarComponent,
-    RegistrosComponent
+    RegistrosComponent,
+    SingInUpComponent
   ],
   exports: [
     FooterComponent,
